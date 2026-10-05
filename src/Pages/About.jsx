@@ -2,10 +2,16 @@ import React, { useEffect } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullseye, faEye, faUsers, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
+import { faBullseye, faEye } from '@fortawesome/free-solid-svg-icons';
 import './css/About.css';
+import heroImg from '../assets/maldive.jpg';
 import team2 from '../assets/image1.jpeg';
 import team1 from '../assets/image2.jpeg';
+
+const team = [
+  { name: 'Maryam Jamil', role: 'Lead Frontend Developer', image: team1 },
+  { name: 'Syeda Gillani', role: 'UI/UX Designer', image: team2 },
+];
 
 export default function About() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
@@ -14,73 +20,73 @@ export default function About() {
     <div className="about-page">
       <Header />
 
-      <div className="about-hero">
+      <section
+        className="about-hero"
+        style={{
+          backgroundImage: `linear-gradient(100deg, rgba(8,18,34,0.88) 0%, rgba(8,18,34,0.55) 60%, rgba(8,18,34,0.3) 100%), url(${heroImg})`,
+        }}
+      >
         <div className="about-hero-text">
-          <h1>Beyond <span>Boundaries</span></h1>
-          <p>We don't just plan trips, we create memories that last a lifetime.</p>
+          <h1>Travel that goes beyond boundaries</h1>
+          <p>We don't just plan trips. We build experiences you will still talk about years later.</p>
         </div>
+      </section>
+
+      <div className="mv-wrap">
+        <section className="mission-vision">
+          <div className="mv-card">
+            <div className="mv-icon"><FontAwesomeIcon icon={faBullseye} /></div>
+            <h3>Our mission</h3>
+            <p>To provide accessible, affordable and authentic travel experiences to every explorer in Pakistan and beyond.</p>
+          </div>
+          <div className="mv-card">
+            <div className="mv-icon"><FontAwesomeIcon icon={faEye} /></div>
+            <h3>Our vision</h3>
+            <p>To become the world's most trusted travel companion by blending technology with a human touch.</p>
+          </div>
+        </section>
       </div>
 
-      <div className="mv-lift">
-        <div className="about-container">
-          <section className="mission-vision">
-            <div className="mv-card">
-              <FontAwesomeIcon icon={faBullseye} className="mv-icon" />
-              <h3>Our Mission</h3>
-              <p>To provide accessible, affordable, and authentic travel experiences to every explorer in Pakistan and beyond.</p>
-            </div>
-            <div className="mv-card">
-              <FontAwesomeIcon icon={faEye} className="mv-icon" />
-              <h3>Our Vision</h3>
-              <p>To become the world's most trusted travel companion by blending technology with human touch.</p>
-            </div>
-          </section>
-        </div>
-      </div>
-
-      <div className="about-container">
-        <section className="about-info">
+      <section className="about-info">
+        <div className="about-info-grid">
           <div className="info-content">
-            <h2>Who We Are?</h2>
+            <h2>Who we are</h2>
             <p>
-              TravelWorld is not just a travel agency; it's a community of dreamers and explorers.
-              Founded in 2026 as a Final Year Project with a passion for seamless digital experiences,
-              we bridge the gap between complex travel planning and effortless adventures. Our platform
-              is built on the foundation of innovation, trust, and transparency, ensuring that every
-              traveler finds their perfect escape without the hassle. Whether it's the serene beaches
-              of Bali or the rugged mountains of Pakistan, we are dedicated to providing expert-curated
-              tours, real-time assistance, and memories that last a lifetime. Our mission is to make
-              the world accessible to everyone, one click at a time.
+              TravelWorld is more than a travel agency. It is a community of dreamers and explorers, founded
+              in 2026 as a Final Year Project with a passion for seamless digital experiences. We bridge the
+              gap between complex travel planning and effortless adventures.
             </p>
-            <div className="info-stats">
-              <div className="s-box"><FontAwesomeIcon icon={faGlobeAmericas} /> <span>50+ Countries</span></div>
-              <div className="s-box"><FontAwesomeIcon icon={faUsers} />        <span>10k+ Community</span></div>
-            </div>
+            <p>
+              Our platform is built on innovation, trust and transparency. From the beaches of Bali to the
+              mountains of Pakistan, we offer expert-curated tours, real-time assistance and trips planned
+              to the last detail. Our goal is to make the world accessible to everyone, one click at a time.
+            </p>
           </div>
-        </section>
 
-        <section className="team-section">
-          <div className="section-title">
-            <h2>Meet Our <span>Creative Team</span></h2>
+          <div className="info-stats">
+            <div className="s-box"><strong>50+</strong><span>Countries</span></div>
+            <div className="s-box"><strong>10k+</strong><span>Community members</span></div>
           </div>
-          <div className="team-grid">
-            <div className="team-card">
+        </div>
+      </section>
+
+      <section className="team-section">
+        <div className="about-heading">
+          <h2>Meet the team</h2>
+          <p>The people who designed and built TravelWorld.</p>
+        </div>
+        <div className="team-grid">
+          {team.map((m) => (
+            <div className="team-card" key={m.name}>
               <div className="member-img">
-                <img src={team1} alt="Maryam Jamil — Lead Frontend Developer" />
+                <img src={m.image} alt={`${m.name}, ${m.role}`} loading="lazy" />
               </div>
-              <h4>Maryam Jamil</h4>
-              <p>Lead Frontend Developer</p>
+              <h4>{m.name}</h4>
+              <p>{m.role}</p>
             </div>
-            <div className="team-card">
-              <div className="member-img">
-                <img src={team2} alt="Syeda Gillani — UI/UX Designer" />
-              </div>
-              <h4>Syeda Gillani</h4>
-              <p>UI/UX Designer</p>
-            </div>
-          </div>
-        </section>
-      </div>
+          ))}
+        </div>
+      </section>
 
       <Footer />
     </div>
