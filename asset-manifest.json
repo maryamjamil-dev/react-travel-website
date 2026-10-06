@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maryam-travel/static/css/main.df590000.css",
-    "main.js": "/maryam-travel/static/js/main.278b8660.js",
+    "main.css": "/maryam-travel/static/css/main.87bb92c4.css",
+    "main.js": "/maryam-travel/static/js/main.ffc4633a.js",
     "static/js/453.605155ce.chunk.js": "/maryam-travel/static/js/453.605155ce.chunk.js",
     "static/media/switzeland.jpg": "/maryam-travel/static/media/switzeland.3eceae32b3cff71856b3.jpg",
     "static/media/hero.jpg": "/maryam-travel/static/media/hero.b174b1e77665b122c0a4.jpg",
@@ -19,12 +19,12 @@
     "static/media/maldive.jpg": "/maryam-travel/static/media/maldive.b6d9fd49c09f6990bfeb.jpg",
     "static/media/logo.png": "/maryam-travel/static/media/logo.cc5496db56e80e4d5931.png",
     "index.html": "/maryam-travel/index.html",
-    "main.df590000.css.map": "/maryam-travel/static/css/main.df590000.css.map",
-    "main.278b8660.js.map": "/maryam-travel/static/js/main.278b8660.js.map",
+    "main.87bb92c4.css.map": "/maryam-travel/static/css/main.87bb92c4.css.map",
+    "main.ffc4633a.js.map": "/maryam-travel/static/js/main.ffc4633a.js.map",
     "453.605155ce.chunk.js.map": "/maryam-travel/static/js/453.605155ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df590000.css",
-    "static/js/main.278b8660.js"
+    "static/css/main.87bb92c4.css",
+    "static/js/main.ffc4633a.js"
   ]
 }
