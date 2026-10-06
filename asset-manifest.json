@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/maryam-travel/static/css/main.87bb92c4.css",
-    "main.js": "/maryam-travel/static/js/main.ffc4633a.js",
-    "static/js/453.605155ce.chunk.js": "/maryam-travel/static/js/453.605155ce.chunk.js",
-    "static/media/switzeland.jpg": "/maryam-travel/static/media/switzeland.3eceae32b3cff71856b3.jpg",
-    "static/media/hero.jpg": "/maryam-travel/static/media/hero.b174b1e77665b122c0a4.jpg",
-    "static/media/page.jpg": "/maryam-travel/static/media/page.1dc7ea74b404cf4cfab5.jpg",
-    "static/media/dubai.jpg": "/maryam-travel/static/media/dubai.e2d1da92cb0fe79c30c4.jpg",
-    "static/media/spain.jpg": "/maryam-travel/static/media/spain.404c0a8fef0a713a8a6f.jpg",
-    "static/media/newzealand.jpg": "/maryam-travel/static/media/newzealand.5384d2954b8a167c277c.jpg",
-    "static/media/bali1.jpg": "/maryam-travel/static/media/bali1.5493d88ef2bd97dc7cba.jpg",
-    "static/media/image2.jpeg": "/maryam-travel/static/media/image2.beb732db24af96d4f6c1.jpeg",
-    "static/media/eygpt.jpg": "/maryam-travel/static/media/eygpt.c2d1ae390e30fa9c16a1.jpg",
-    "static/media/image1.jpeg": "/maryam-travel/static/media/image1.2c0cbfa08b312780a3c8.jpeg",
-    "static/media/turkey.jpg": "/maryam-travel/static/media/turkey.b256f7620a1c9097154b.jpg",
-    "static/media/paris.jpg": "/maryam-travel/static/media/paris.5f4471bc4ff38159e2b1.jpg",
-    "static/media/bali.jpg": "/maryam-travel/static/media/bali.b6d9fd49c09f6990bfeb.jpg",
-    "static/media/maldive.jpg": "/maryam-travel/static/media/maldive.b6d9fd49c09f6990bfeb.jpg",
-    "static/media/logo.png": "/maryam-travel/static/media/logo.cc5496db56e80e4d5931.png",
-    "index.html": "/maryam-travel/index.html",
-    "main.87bb92c4.css.map": "/maryam-travel/static/css/main.87bb92c4.css.map",
-    "main.ffc4633a.js.map": "/maryam-travel/static/js/main.ffc4633a.js.map",
-    "453.605155ce.chunk.js.map": "/maryam-travel/static/js/453.605155ce.chunk.js.map"
+    "main.css": "/react-travel-website/static/css/main.87bb92c4.css",
+    "main.js": "/react-travel-website/static/js/main.f407af6e.js",
+    "static/js/453.605155ce.chunk.js": "/react-travel-website/static/js/453.605155ce.chunk.js",
+    "static/media/switzeland.jpg": "/react-travel-website/static/media/switzeland.3eceae32b3cff71856b3.jpg",
+    "static/media/hero.jpg": "/react-travel-website/static/media/hero.b174b1e77665b122c0a4.jpg",
+    "static/media/page.jpg": "/react-travel-website/static/media/page.1dc7ea74b404cf4cfab5.jpg",
+    "static/media/dubai.jpg": "/react-travel-website/static/media/dubai.e2d1da92cb0fe79c30c4.jpg",
+    "static/media/spain.jpg": "/react-travel-website/static/media/spain.404c0a8fef0a713a8a6f.jpg",
+    "static/media/newzealand.jpg": "/react-travel-website/static/media/newzealand.5384d2954b8a167c277c.jpg",
+    "static/media/bali1.jpg": "/react-travel-website/static/media/bali1.5493d88ef2bd97dc7cba.jpg",
+    "static/media/image2.jpeg": "/react-travel-website/static/media/image2.beb732db24af96d4f6c1.jpeg",
+    "static/media/eygpt.jpg": "/react-travel-website/static/media/eygpt.c2d1ae390e30fa9c16a1.jpg",
+    "static/media/image1.jpeg": "/react-travel-website/static/media/image1.2c0cbfa08b312780a3c8.jpeg",
+    "static/media/turkey.jpg": "/react-travel-website/static/media/turkey.b256f7620a1c9097154b.jpg",
+    "static/media/paris.jpg": "/react-travel-website/static/media/paris.5f4471bc4ff38159e2b1.jpg",
+    "static/media/bali.jpg": "/react-travel-website/static/media/bali.b6d9fd49c09f6990bfeb.jpg",
+    "static/media/maldive.jpg": "/react-travel-website/static/media/maldive.b6d9fd49c09f6990bfeb.jpg",
+    "static/media/logo.png": "/react-travel-website/static/media/logo.cc5496db56e80e4d5931.png",
+    "index.html": "/react-travel-website/index.html",
+    "main.87bb92c4.css.map": "/react-travel-website/static/css/main.87bb92c4.css.map",
+    "main.f407af6e.js.map": "/react-travel-website/static/js/main.f407af6e.js.map",
+    "453.605155ce.chunk.js.map": "/react-travel-website/static/js/453.605155ce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87bb92c4.css",
-    "static/js/main.ffc4633a.js"
+    "static/js/main.f407af6e.js"
   ]
 }
