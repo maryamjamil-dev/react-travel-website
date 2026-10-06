@@ -2,7 +2,7 @@
   "name": "tourtravel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maryamjamil-lab.github.io/maryam-travel/",
+  "homepage": "https://maryamjamil-dev.github.io/react-travel-website/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.2.0",
     "@fortawesome/free-brands-svg-icons": "^7.3.1",
