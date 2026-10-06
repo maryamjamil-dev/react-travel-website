@@ -79,7 +79,7 @@ export default function Destination() {
           <div className="dest-grid">
             {items.map((d) => (
               // Change this link if your destination details page uses a different route
-              <Link to={`/destination/${d.id}`} className="dest-card" key={d.id}>
+              <Link to={`/tour/${d.id}`} className="dest-card" key={d.id}>
                 <div className="dest-img">
                   <img src={d.image} alt={d.title} loading="lazy" />
                 </div>
